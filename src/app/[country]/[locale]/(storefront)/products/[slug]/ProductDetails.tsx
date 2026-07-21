@@ -215,7 +215,7 @@ export function ProductDetails({ product, basePath }: ProductDetailsProps) {
               <div
                 className="text-gray-600 prose prose-sm max-w-none"
                 dangerouslySetInnerHTML={{
-                  __html: product.description_html ?? ""
+                  __html: product.description_html ?? "",
                 }}
               />
             </div>
